@@ -3,7 +3,7 @@
 import os,sys,time
 import zipfile
 filename = 'my.zip'  #要解压的文件
-filedir = 'C:\zz\ff'  #解压后放入的目录
+filedir = 'C:\zz'  #解压后放入的目录
 r = zipfile.is_zipfile(filename)
 if r:
     starttime = time.time()
