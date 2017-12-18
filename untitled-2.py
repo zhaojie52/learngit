@@ -2,7 +2,7 @@
 #coding=utf-8
 import os,sys,time
 import zipfile
-filename = 'my.zip'  #要解压的文件
+filename = 'my.zip'  #要解压的文件名
 filedir = 'C:\zz'  #解压后放入的目录
 r = zipfile.is_zipfile(filename)
 if r:
